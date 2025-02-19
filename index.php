@@ -3,7 +3,7 @@
         <title></title>
     </head>
     <body>
-      <form action="/action_page.php">
+      <form action="action_page.php" method='POST'>
         <fieldset>
           <legend>Personalia:</legend>
           <label for="fname">First name:</label>
@@ -14,7 +14,7 @@
           <input type="email" id="email" name="email"><br><br>
           <label for="birthday">Birthday:</label>
           <input type="date" id="birthday" name="birthday"><br><br>
-          <input type="submit" value="Submit">
+          <input type="submit" value="SAVE RECORD" name='submit_record'>
         </fieldset>
       </form>
     </body>
